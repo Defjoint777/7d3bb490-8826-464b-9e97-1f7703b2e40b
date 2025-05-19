@@ -66,7 +66,7 @@ This is a crucial step in becoming a responsible and efficient open source contr
    git fetch upstream
    ```
 
-5. **Merge the Upstream Changes into Your Branch**  
+5. **Merge the Upstream Changes into Your Bra
    Make sure you are on your default branch:
    ```bash
    git checkout main
@@ -97,11 +97,20 @@ git remote prune upstream
 ## 3) Questions
 
 1. What is the purpose of `git remote add upstream`?
-2. Why does Git separate the actions of `fetch` and `merge` instead of just doing everything in one step?
-3. What is the difference between `origin` and `upstream` in the context of a forked repository?
-4. What would happen if you skipped the `merge` step and just pushed after `fetch`?
-5. Is it safe to overwrite your fork with upstream changes? Under what circumstances should you avoid this?
-6. What are the risks of working on a fork that is out of sync with its upstream repository?
+   u are on the newest version, fast and clear without anyy problems.
+   
+3. Why does Git separate the actions of `fetch` and `merge` instead of just doing everything in one step?
+   it allows u to check first updates before u change files in ur directory.
+   
+5. What is the difference between `origin` and `upstream` in the context of a forked repository?
+   origin is fork to ur own forked repository, upstream is for to someones repository.
+   
+7. What would happen if you skipped the `merge` step and just pushed after `fetch`?
+ error
+9. Is it safe to overwrite your fork with upstream changes? Under what circumstances should you avoid this?
+ if u working in team, it would wipe their work away.
+11. What are the risks of working on a fork that is out of sync with its upstream repository?
+    it means u working on files that not up-to-date.
 
 ## 4) Advice
 
